@@ -26,3 +26,8 @@ padding: 5px;
     display: flex;
     align-items: center;
 }
+.sidebar_listitem.active,.sidebar_listitem:hover{
+background-color: rgba(214, 211, 211, 0.616);
+border-radius: 10px;
+cursor: pointer;
+}

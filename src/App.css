@@ -1,7 +1,4 @@
 .sidebar_container{
     display: flex;
-}
-.other_div{
-    flex: 4;
-    background-color: rgb(246, 234, 234);
+    margin-top: 20px;
 }

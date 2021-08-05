@@ -11,7 +11,7 @@ const Sidebar = () => {
                         Dashboard
                     </h3>
                     <ul className="sidebar_list">
-                        <li className="sidebar_listitem">
+                        <li className="sidebar_listitem active">
                             <Home/>Home
                         </li>
                         <li className="sidebar_listitem">
@@ -23,7 +23,7 @@ const Sidebar = () => {
                     </ul>
                     
                 </div>
-                <div className="sidebar_menu">
+                {/* <div className="sidebar_menu">
                     <h3 className="sidebar_title">
                         Dashboard
                     </h3>
@@ -38,7 +38,7 @@ const Sidebar = () => {
                             <TrendingUp/>Sales
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     )
