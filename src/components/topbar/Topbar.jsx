@@ -7,7 +7,7 @@ const Topbar = () => {
         <div className="topbar">
             <div className="topbar_wrapper">
                 <div className="topleft">
-                    <span className="logo">KG BLOG ADMIN DASHBOARD</span>
+                    <span className="logo">DASHBOARD</span>
                 </div>
                 <div className="topright">
                     <div className="topbar_right_icons">
