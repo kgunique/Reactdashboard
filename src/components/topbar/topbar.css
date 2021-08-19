@@ -13,11 +13,19 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+
 .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: 30px;
     color: darkblue;
     cursor: pointer;
+}
+.logoimg{
+    height: 50px;
+    width: 50px;
 }
 .topright{
     display: flex;

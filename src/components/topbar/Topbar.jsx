@@ -1,5 +1,6 @@
 import React from 'react'
 import './topbar.css'
+import logo from './favicon1.ico'
 import { NotificationsNone,Person,Settings} from '@material-ui/icons';
 
 const Topbar = () => {
@@ -7,7 +8,7 @@ const Topbar = () => {
         <div className="topbar">
             <div className="topbar_wrapper">
                 <div className="topleft">
-                    <span className="logo">DASHBOARD</span>
+                    <span className="logo"><img src={logo} alt="_logo" className="logoimg"></img> DASHBOARD</span>
                 </div>
                 <div className="topright">
                     <div className="topbar_right_icons">

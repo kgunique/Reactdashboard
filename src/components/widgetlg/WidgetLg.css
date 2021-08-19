@@ -1,0 +1,6 @@
+.widgetlg{
+    flex:2;
+    box-shadow: 3px 12px 54px -12px rgba(54,53,53,0.75);
+    padding: 20px;
+    margin: 10px 10px;
+}
